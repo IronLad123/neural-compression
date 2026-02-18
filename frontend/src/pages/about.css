@@ -1,0 +1,10 @@
+.about{
+  max-width:900px;
+  margin:auto;
+  color:#e5e7eb;
+  line-height:1.7;
+}
+
+.about h1{ margin-bottom:20px; }
+.about h2{ margin-top:30px; color:#4cc9f0; }
+.about ul{ margin-left:20px; margin-top:10px; }

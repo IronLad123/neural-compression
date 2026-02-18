@@ -1,0 +1,36 @@
+.header{
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  height:56px;
+  background:#020617cc;
+  backdrop-filter:blur(6px);
+  border-bottom:1px solid #1f2937;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:0 24px;
+  z-index:20;
+}
+
+.logo{
+  font-family:monospace;
+  color:#4cc9f0;
+  letter-spacing:2px;
+}
+
+.navs{
+  display:flex;
+  gap:18px;
+}
+
+.nav{
+  color:#cbd5e1;
+  text-decoration:none;
+  font-size:14px;
+  transition:.2s;
+}
+
+.nav:hover{ color:#4cc9f0; }
+.active{ color:#4cc9f0; }

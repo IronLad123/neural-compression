@@ -1,0 +1,43 @@
+.analysis-root{
+  background:#020617;
+  color:#b9fbc0;
+  height:100vh;
+  padding:40px;
+  font-family:monospace;
+}
+
+.analysis-terminal{
+  margin-top:30px;
+  background:#000814;
+  padding:20px;
+  border:1px solid #1b263b;
+  min-height:260px;
+  box-shadow:0 0 12px rgba(76,201,240,0.15) inset;
+}
+
+.analysis-line{
+  margin:6px 0;
+  opacity:0;
+  animation:fadeIn 0.4s forwards;
+}
+
+.analysis-actions{
+  margin-top:30px;
+}
+
+.analysis-actions button{
+  background:#0a9396;
+  border:none;
+  padding:10px 18px;
+  color:white;
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.analysis-actions button:hover{
+  background:#4cc9f0;
+}
+
+@keyframes fadeIn{
+  to{opacity:1;}
+}

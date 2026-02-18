@@ -1,0 +1,7 @@
+venv/
+frontend/node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.pytest_cache/
+.mypy_cache/
